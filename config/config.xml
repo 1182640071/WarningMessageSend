@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+	<common>
+	     <!-- 每次从数据库中取数据量 -->
+         <fetchCount>50</fetchCount>
+         <!-- 微信接口用户名 -->
+         <userName></userName>
+         <!-- 微信接口密码 -->
+         <passWord></passWord>
+         <!-- 微信接口地址 -->
+         <URL>http://0.0.0.0/weixin/SendWX</URL>
+         <!-- 抓取线程数 -->
+         <fetchthreads>2</fetchthreads>
+         <!-- 发送线程数 -->
+         <sendthreads>2</sendthreads>
+         <!-- 内存队列最大数 -->
+         <fetchLimt>200</fetchLimt>
+         
+         <!-- 短信接口地址 -->
+         <dress>http://0.0.0.0:9001/QxtSms/QxtFirewall</dress>
+         <!-- 短信接口用户名 -->
+         <user></user>
+         <!-- 短信接口密码 -->
+         <pass></pass>
+    </common>
+    
+</config>
